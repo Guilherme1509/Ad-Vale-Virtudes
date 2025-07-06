@@ -12,7 +12,7 @@ const Historia = () => {
             Nossa História
           </h1>
           <p className="text-lg md:text-xl opacity-90 max-w-2xl mx-auto">
-            Uma jornada de fé que começou em 1992 e continua transformando vidas
+            Uma jornada de fé que começou em 1973 e continua transformando vidas
           </p>
         </div>
       </section>
@@ -27,11 +27,11 @@ const Historia = () => {
                   <Calendar className="w-10 h-10 text-primary" />
                 </div>
                 <CardTitle className="font-serif text-3xl">Fundação da Igreja</CardTitle>
-                <CardDescription className="text-lg">24 de Fevereiro de 1992</CardDescription>
+                <CardDescription className="text-lg">1973 - Pr. Sebastião</CardDescription>
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-lg leading-relaxed mb-6">
-                  A Assembleia de Deus Vale das Virtudes foi fundada em 24 de fevereiro de 1992, 
+                  A Assembleia de Deus Vale das Virtudes foi fundada em 1973 pelo Pastor Sebastião, 
                   com o propósito de levar a Palavra de Deus e o amor de Cristo para a comunidade 
                   do Vale das Virtudes e região.
                 </p>
@@ -53,13 +53,26 @@ const Historia = () => {
               <div className="space-y-8">
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-primary-foreground font-bold">1992</span>
+                    <span className="text-primary-foreground font-bold">1973</span>
                   </div>
                   <div className="flex-1">
                     <h3 className="font-serif text-xl font-semibold mb-2">Fundação da Igreja</h3>
                     <p className="text-muted-foreground">
-                      Em 24 de fevereiro, nasce a Assembleia de Deus Vale das Virtudes, 
+                      A Assembleia de Deus Vale das Virtudes é fundada pelo Pastor Sebastião, 
                       estabelecendo-se na Rua José Ramos Fernandes, 420.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+                    <span className="text-primary-foreground font-bold">1992</span>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-serif text-xl font-semibold mb-2">Pastor Silas Alves</h3>
+                    <p className="text-muted-foreground">
+                      O Pastor Silas Alves assume a presidência da igreja, dando continuidade 
+                      à obra e expandindo o ministério.
                     </p>
                   </div>
                 </div>
@@ -84,7 +97,7 @@ const Historia = () => {
                   <div className="flex-1">
                     <h3 className="font-serif text-xl font-semibold mb-2">Continuamos Crescendo</h3>
                     <p className="text-muted-foreground">
-                      Mais de 30 anos de ministério, formando discípulos e impactando vidas 
+                      Mais de 50 anos de ministério, formando discípulos e impactando vidas 
                       através do amor de Cristo.
                     </p>
                   </div>

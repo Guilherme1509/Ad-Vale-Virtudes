@@ -12,9 +12,9 @@ const Header = () => {
     { name: 'Início', href: '/' },
     { name: 'Nossa História', href: '/historia' },
     { name: 'Faculdade de Teologia', href: '/faculdade' },
-    { name: 'Ministérios', href: '/ministerios' },
+    { name: 'Grupos de Louvor', href: '/ministerios' },
+    { name: 'Missões', href: '/missoes' },
     { name: 'Programação', href: '/programacao' },
-    { name: 'Igrejas Próximas', href: '/igrejas' },
     { name: 'Galeria', href: '/galeria' },
     { name: 'Contato', href: '/contato' }
   ];

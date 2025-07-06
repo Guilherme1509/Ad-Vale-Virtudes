@@ -32,7 +32,7 @@ const Home = () => {
             </div>
 
             <p className="text-lg md:text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-              Fundada em 24 de fevereiro de 1992, sob a presidência do Pastor Silas Alves. 
+              Fundada em 1973 pelo Pastor Sebastião. Atualmente sob a presidência do Pastor Silas Alves. 
               Uma igreja que caminha pela fé, proclamando o amor de Cristo.
             </p>
 
@@ -57,6 +57,94 @@ const Home = () => {
               </Button>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Programação */}
+      <section className="church-section bg-muted/30">
+        <div className="church-container">
+          <div className="text-center mb-8">
+            <h2 className="font-serif text-3xl md:text-4xl font-bold text-primary mb-4">
+              Nossa Programação
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              Venha participar dos nossos encontros
+            </p>
+          </div>
+
+          <div className="max-w-2xl mx-auto">
+            <Card className="church-card">
+              <CardContent className="p-6">
+                <div className="space-y-4">
+                  <div className="flex justify-between items-center py-3 border-b border-border">
+                    <div>
+                      <h3 className="font-semibold text-lg">Culto da Família</h3>
+                      <p className="text-sm text-muted-foreground">Domingo</p>
+                    </div>
+                    <div className="text-right">
+                      <Clock className="w-4 h-4 inline mr-1 text-primary" />
+                      <span className="font-medium">18:00</span>
+                    </div>
+                  </div>
+                  
+                  <div className="flex justify-between items-center py-3 border-b border-border">
+                    <div>
+                      <h3 className="font-semibold text-lg">Culto de Ensino</h3>
+                      <p className="text-sm text-muted-foreground">Quarta-feira</p>
+                    </div>
+                    <div className="text-right">
+                      <Clock className="w-4 h-4 inline mr-1 text-primary" />
+                      <span className="font-medium">19:30</span>
+                    </div>
+                  </div>
+                  
+                  <div className="flex justify-between items-center py-3">
+                    <div>
+                      <h3 className="font-semibold text-lg">Culto de Oração</h3>
+                      <p className="text-sm text-muted-foreground">Sexta-feira</p>
+                    </div>
+                    <div className="text-right">
+                      <Clock className="w-4 h-4 inline mr-1 text-primary" />
+                      <span className="font-medium">20:00</span>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Chamada Faculdade */}
+      <section className="church-section">
+        <div className="church-container">
+          <Card className="church-card bg-gradient-to-r from-primary/5 to-primary/10 border-primary/20">
+            <CardContent className="p-8 md:p-12">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                <div>
+                  <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
+                    <BookOpen className="w-8 h-8 text-primary" />
+                  </div>
+                  <h2 className="font-serif text-3xl md:text-4xl font-bold text-primary mb-4">
+                    Conheça a nossa Faculdade de Teologia
+                  </h2>
+                  <p className="text-lg text-muted-foreground mb-6">
+                    Formando obreiros preparados para a obra do Senhor através de um ensino 
+                    sólido e fundamentado na Palavra de Deus.
+                  </p>
+                  <Button asChild size="lg" className="font-medium">
+                    <Link to="/faculdade">Saiba Mais</Link>
+                  </Button>
+                </div>
+                
+                <div className="flex justify-center">
+                  <div className="w-64 h-64 bg-muted/50 rounded-lg flex items-center justify-center">
+                    <BookOpen className="w-24 h-24 text-muted-foreground" />
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </section>
 
@@ -187,6 +275,36 @@ const Home = () => {
             <Button asChild variant="outline" size="lg">
               <Link to="/galeria">Ver Mais Eventos</Link>
             </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Igrejas Próximas */}
+      <section className="church-section bg-muted/30">
+        <div className="church-container">
+          <div className="text-center mb-12">
+            <h2 className="font-serif text-3xl md:text-4xl font-bold text-primary mb-4">
+              Igrejas Próximas de Você
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              Encontre uma congregação perto de você
+            </p>
+          </div>
+
+          <div className="max-w-4xl mx-auto">
+            <Card className="church-card">
+              <CardContent className="p-8 text-center">
+                <MapPin className="w-16 h-16 text-muted-foreground mx-auto mb-4" />
+                <h3 className="font-serif text-xl font-semibold mb-2">Localização Inteligente</h3>
+                <p className="text-muted-foreground mb-6">
+                  Em breve, você poderá encontrar automaticamente as congregações 
+                  mais próximas da sua localização.
+                </p>
+                <Button variant="outline">
+                  Ativar Localização
+                </Button>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>

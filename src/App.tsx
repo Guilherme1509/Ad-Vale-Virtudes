@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Historia from "./pages/Historia";
 import Faculdade from "./pages/Faculdade";
 import Ministerios from "./pages/Ministerios";
+import Missoes from "./pages/Missoes";
 import Programacao from "./pages/Programacao";
 import Igrejas from "./pages/Igrejas";
 import Galeria from "./pages/Galeria";
@@ -28,6 +29,7 @@ const App = () => (
             <Route path="/historia" element={<Historia />} />
             <Route path="/faculdade" element={<Faculdade />} />
             <Route path="/ministerios" element={<Ministerios />} />
+            <Route path="/missoes" element={<Missoes />} />
             <Route path="/programacao" element={<Programacao />} />
             <Route path="/igrejas" element={<Igrejas />} />
             <Route path="/galeria" element={<Galeria />} />

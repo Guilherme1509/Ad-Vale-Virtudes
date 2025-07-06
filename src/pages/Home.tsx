@@ -90,7 +90,7 @@ const Home = () => {
                   <div className="flex justify-between items-center py-3 border-b border-border">
                     <div>
                       <h3 className="font-semibold text-lg">Culto de Ensino</h3>
-                      <p className="text-sm text-muted-foreground">Quarta-feira</p>
+                      <p className="text-sm text-muted-foreground">Segunda-feira</p>
                     </div>
                     <div className="text-right">
                       <Clock className="w-4 h-4 inline mr-1 text-primary" />
@@ -100,12 +100,12 @@ const Home = () => {
                   
                   <div className="flex justify-between items-center py-3">
                     <div>
-                      <h3 className="font-semibold text-lg">Culto de Oração</h3>
-                      <p className="text-sm text-muted-foreground">Sexta-feira</p>
+                      <h3 className="font-semibold text-lg">Culto da família</h3>
+                      <p className="text-sm text-muted-foreground">Quinta-feira</p>
                     </div>
                     <div className="text-right">
                       <Clock className="w-4 h-4 inline mr-1 text-primary" />
-                      <span className="font-medium">20:00</span>
+                      <span className="font-medium">19:00</span>
                     </div>
                   </div>
                 </div>

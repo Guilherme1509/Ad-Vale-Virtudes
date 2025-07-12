@@ -66,13 +66,14 @@ const Historia = () => {
 
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-primary-foreground font-bold">1992</span>
+                    <span className="text-primary-foreground font-bold">2020</span>
                   </div>
                   <div className="flex-1">
                     <h3 className="font-serif text-xl font-semibold mb-2">Pastor Silas Alves</h3>
                     <p className="text-muted-foreground">
-                      O Pastor Silas Alves assume a presidência da igreja, dando continuidade 
-                      à obra e expandindo o ministério.
+                      Filho do Pastor Sebastião Alves e vice-presidente da igreja, o Pastor Silas 
+                      assume a presidência após o falecimento do saudoso Pastor Sebastião, 
+                      com o consentimento de toda a igreja.
                     </p>
                   </div>
                 </div>
@@ -114,17 +115,22 @@ const Historia = () => {
           <div className="max-w-4xl mx-auto">
             <Card className="church-card">
               <CardHeader className="text-center">
-                <div className="w-32 h-32 bg-muted rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="w-16 h-16 text-muted-foreground" />
+                <div className="w-32 h-32 bg-muted rounded-full overflow-hidden flex items-center justify-center mx-auto mb-4">
+                  <img 
+                    src="/lovable-uploads/49c92200-2c7c-4ab8-b5e9-2413dbc89595.png" 
+                    alt="Pastor Silas Alves" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <CardTitle className="font-serif text-3xl">Pastor Silas Alves</CardTitle>
                 <CardDescription className="text-lg">Pastor Presidente</CardDescription>
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-lg leading-relaxed mb-6">
-                  Líder espiritual da Assembleia de Deus Vale das Virtudes, o Pastor Silas Alves 
-                  tem dedicado sua vida ao ministério pastoral, guiando a igreja com sabedoria, 
-                  amor e compromisso com a Palavra de Deus.
+                  Filho do Pastor Sebastião Alves e ex-vice-presidente da igreja, o Pastor Silas 
+                  assumiu a presidência em 2020 após o falecimento do saudoso Pastor Sebastião, 
+                  com o consentimento de toda a igreja. Dedica sua vida ao ministério pastoral, 
+                  guiando a igreja com sabedoria, amor e compromisso com a Palavra de Deus.
                 </p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">

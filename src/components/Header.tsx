@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Phone, MapPin } from 'lucide-react';
-import logoIgreja from '@/assets/logo-igreja.png';
+const logoIgreja = '/lovable-uploads/2ad825fc-c383-4405-a451-990485e9fb52.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

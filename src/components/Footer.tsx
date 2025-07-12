@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Mail, Clock, Heart, Instagram, Facebook, Youtube } from 'lucide-react';
-import logoIgreja from '@/assets/logo-igreja.png';
+const logoIgreja = '/lovable-uploads/2ad825fc-c383-4405-a451-990485e9fb52.png';
 
 const Footer = () => {
   return (
